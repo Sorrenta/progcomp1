@@ -15,6 +15,5 @@ Disciplina de Programação de Computadores I
 6. git branch -M main
 // envia o projeto para o github
 7. git push https://github.com/seu_usuario/seu_repositorio.git main
-
 // quando quiser atualizar o github com as alterações locais:
 repetir os passos 4, 5 e 7

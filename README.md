@@ -17,3 +17,6 @@ Disciplina de Programação de Computadores I
 7. git push https://github.com/seu_usuario/seu_repositorio.git main
 // quando quiser atualizar o github com as alterações locais:
 repetir os passos 4, 5 e 7
+
+git pull // atualiza local com os dados remotos
+git clone // download do remoto

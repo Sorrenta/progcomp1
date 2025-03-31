@@ -1,5 +1,8 @@
 Disciplina de Programação de Computadores I
 
+DATA ENTREGA SITE + RELATÓRIO (WORD) 27/04
+
+
 // configura o email no git
 
 1. git config --global user.email "seu@email.com"

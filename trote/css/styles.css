@@ -5,55 +5,58 @@ body {
     background-color: #f4f4f4;
     text-align: center;
 }
-
-header {
-    background-color: #28a745;
+header{
+    background: #28a745;
     color: white;
-    padding: 15px 0; /* espaçamento interno 15px vertical, 0px horizontal */
+    /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
+    padding: 15px 0; 
     font-size: 24px;
-    border: 1px black;
+
 }
 
-nav{
+nav {
     background-color: #007bff;
     padding: 10px;
-    display: flex; /* flex boxing */
-    justify-content: space-between; /* espaço entre os links */
+    display: flex; /* Flex Boxing */
+    /* alinhamento na horizontal - espaço entre os links */
+    justify-content: space-between;
+    /* alinhamento na vertical */
     align-items: center;
-    
+
 }
 
 #links-menu {
     display: flex;
     gap: 15px;
 }
-
-/* configura o estilo das ancoras que estão dentro do nav */
+/* configura o estilo das âncoras que estão dentro do nav */
 nav a {
-    color: white;
+    color: white; /* texto branco */
     text-decoration: none; /* não faz decoração no link */
-    padding: 10px 15px;
-    font-size: 18px;
-    background-color: #005663;
+    padding: 10px 15px; /* 10px é acima e abaixo 15px é esq e dir */
+    font-size: 18px; /* 18px de tamanho da fonte */
+    background: #005663; /* cor de fundo */
     border-radius: 5px; /* borda com canto arredondado */
 }
 
 nav a:hover {
-    background-color: #003d82;
+    background: #003d82;
 }
 
 img {
-    width: 120px; /* largura da imagem */
+    width: 100px;
     height: auto;
-    margin-right: 20px; /* margem da imagem a direita */
+    margin-right: 5px; /* espaçamento externo à direita de 20px */
     border-radius: 10px;
-    
+
 }
 
-.container {
+.container{
     width: 80%;
-    margin: 20px auto; /* 20px vertical e automatico horinzontal */
-    background-color: white;
+    /* 20px em cima e em baixo e automática èsquerda e direto*/
+    margin: 20px auto; 
+    background: white;
+    /* espaçamento interno é nos 4 lados */
     padding: 20px;
     border-radius: 10px;
     text-align: justify;
@@ -62,9 +65,47 @@ img {
 h2 {
     text-align: center;
 }
-/* referenciar uma classe em CSS se usa ponto (.)
- referenciar um ID em CSS se usa hashtag (#) */
- 
- td {
+
+
+table tr td {
     padding: 20px;
- }
+}
+
+table {
+    /* esp. externo de 0 acima e abaixo e automático esq. dir. */
+    margin: 0 auto; 
+}
+
+.laranja {
+    background-color: orange;
+}
+.azul {
+    background-color: blue;
+    color: white;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxo {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+
+.campos {
+    padding: 5px;
+}
+
+.campos label {
+    margin-right: 10px;
+    width: 10px;
+}
+
+.campos button:hover {
+    background-color: #05f725;
+}

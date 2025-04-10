@@ -162,5 +162,5 @@ function calcular(){
     }
     soma = soma + pontosSangue
     //devolve o resultado para o HTML //
-    document.getElementById("soma").innerHTML = `R$ ${soma.toFixed(2)}`
+    document.getElementById("soma").innerHTML = `${soma.toFixed(2)}`
 }

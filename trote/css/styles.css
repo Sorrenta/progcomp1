@@ -53,7 +53,7 @@ img {
 
 .container{
     width: 80%;
-    /* 20px em cima e em baixo e automática èsquerda e direto*/
+    /* 20px em cima e em baixo e automática esquerda e direto*/
     margin: 20px auto; 
     background: white;
     /* espaçamento interno é nos 4 lados */
@@ -72,7 +72,6 @@ table tr td {
 }
 
 table {
-    /* esp. externo de 0 acima e abaixo e automático esq. dir. */
     margin: 0 auto; 
 }
 
@@ -109,3 +108,70 @@ table {
 .campos button:hover {
     background-color: #05f725;
 }
+
+table td {
+    text-align: left;
+  }
+  
+  table tr td {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  table th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  table li {
+    text-align: left;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+
+#metasEquipe {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  
+  #metasEquipe th,
+  td {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  .laranja {
+    background-color: #ffc000;
+  }
+  
+  .preto {
+    background-color: rgb(58, 58, 58);
+    color: white;
+  }
+  
+  .roxo {
+    background-color: #ac75d5;
+  }
+  
+  .azul {
+    background-color: #002060;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+  }
+  
+  .azul th {
+    border: 2px solid black;
+  }
+  
+  .verde {
+    background-color: #92d050;
+  }
+  
+  .vermelho {
+    background-color: #ff5b5b;
+  }
+  
